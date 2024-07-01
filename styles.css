@@ -1,0 +1,151 @@
+/* Element Styling */
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+/* Take the margin off the h1 so the 3 lines of header are closer together */
+h1 {
+  margin: 0;
+}
+
+/* Set the background color of the main part of the page from pink to white.
+The padding is to prevent collapsing margins */
+main {
+  background: linear-gradient(#ee5e76, #ffffff);
+  padding: 1px;
+}
+
+/* Class Styling */
+
+/* Utility class for using white text */
+.white-text {
+  color: #ffffff;
+}
+
+/* Utility class for using pink text */
+.pink-text {
+  color: #ee5e76;
+}
+
+/* Add margin top to provide space from the activities and the header text.
+Set to display flex to seperate the activities into columns */
+.activities {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Set the width of each activity column so they are the same size.
+Set the display to flex-column so we can control the positioning of the elements */
+.activity {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Set the size, position and border of all img class elements */
+.img {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Style the card in the footer */
+.card {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #ee5e76;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+/* Set the size and border of the image in the card */
+.avatar {
+  width: 150px;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+}
+
+/* Selector Styling */
+
+#hero {
+  margin: 0;
+  background-image: url("images/glasgow.jpg") ;
+  background-size: cover;
+  background-position: center;
+  border: 3px solid #ee5e76;
+  text-transform: uppercase;
+}
+
+#heading {
+  margin: 100px auto 50px;
+  background: #ee5e76;
+  width: 225px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#hero h1, h2 {
+  text-shadow: 0px 0px 5px black;
+}
+
+#hero h2 {
+  margin: 20px auto 100px auto;
+}
+
+/*Give the double border look */
+#inside-border {
+  border: 3px solid #ffffff;
+}
+
+#best-city {
+  background: #ee5e76;
+  width: 500px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+
+#hover-help {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Reduce the margin botton so the hover help is a bit closer */
+#top-activities {
+  margin-bottom: 5px;
+}
+
+#paradise-img {
+  background-image: url("images/paradise.jpg");
+}
+
+#paradise-img:hover {
+  background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWVsaDMwenFpcWtodTN4Z2MxejAzOG91NnlyYWUxbjVzZnVnaTV3cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/k67a1jEaA9gO1WkA9O/giphy.gif");
+}
+
+#barrowlands-img {
+  background-image: url("images/barrowlands.jpg");
+}
+
+#barrowlands-img:hover {
+  background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2o3NjM1andrajdzdnd3cGRzMXNmeDBvMmQ5cnRtZXh0MWZsZm83ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKGzDBuJy7I5lkJjy/giphy.gif");
+}
+
+#lochlomond-img {
+  background-image: url("images/lochlomond.jpg");
+}
+
+#lochlomond-img:hover {
+  background-image: url("https://media3.giphy.com/media/h3g3GrdlXDggNrJiV0/200w.gif");
+}
